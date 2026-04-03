@@ -34,4 +34,9 @@ Bodhi Z uses:
 - Dictionaries for slang & emoji decoding
 - Randomised responses for personality variation
 
+  ## 🚀 Run the Project
+
+To run Bodhi Z locally:
+
+
 
