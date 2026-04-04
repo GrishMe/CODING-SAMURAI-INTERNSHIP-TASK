@@ -38,5 +38,30 @@ Bodhi Z uses:
 
 To run Bodhi Z locally:
 
+python bodhiz_assistant.py
+
+
+## 🧩 What I Learned
+
+- Designing a personality-driven AI assistant  
+- Building a simple mode engine in Python  
+- Handling user input safely and predictably  
+- Structuring Python code in a modular way  
+- Thinking about cybersecurity while designing behaviour  
+
+## 👩‍💻 Author
+**Grishma**  
+Cybersecurity & AI Enthusiast  
+
+## 📁 Project Structure
+CODING-SAMURAI-INTERNSHIP-TASK/
+│── bodhiz_assistant.py
+│── README.md
+
+
+## 🎥 Demo
+(Coming soon — demo video of Bodhi Z in action)
+
+
 
 
