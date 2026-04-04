@@ -1,11 +1,4 @@
-**Preparing the Python file**
 
-Okay, the user wants a single Python file with a specific tagline: "Bodhi Z - Adulting to Delulu...I decode it all." I’ll make sure to use the exact punctuation, including the hyphen, capital "Delulu", and the three dots. I’ll keep the intro brief and adjust the comment header accordingly. The file should be concise but not overly verbose. I’ll reuse the earlier full file and just tweak the intro and tagline. Let’s get this ready!
-Here’s your **full single file** version with the tagline exactly as:
-
-`Bodhi Z - Adulting to Delulu...I decode it all.`
-
-```python
 # ---------------------------------------------------------
 # Bodhi Z - Adulting to Delulu...I decode it all.
 # ---------------------------------------------------------
@@ -337,4 +330,4 @@ while True:
         "Grishma… explain yourself.",
         "Input not recognized — switching to safe mode.",
     ]))
-```
+
