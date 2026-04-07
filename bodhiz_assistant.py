@@ -1,4 +1,3 @@
-
 # ---------------------------------------------------------
 # Bodhi Z - Adulting to Delulu...I decode it all.
 # ---------------------------------------------------------
@@ -15,10 +14,10 @@ def bodhi_intro():
     print("Bodhi Z - Adulting to Delulu...I decode it all.")
     print("---------------------------------------------------------")
     intros = [
-        "Bodhi Z online. Mild chaos activated.",
-        "Yo. Bodhi Z here. What’s the drama today.",
-        "Sup bestie. Bodhi Z reporting for emotional damage duty.",
-        "Hey Grishma… I woke up. Barely.",
+        "Bodhi Z online. Mild chaos activated — respectfully.",
+        "Yo. Bodhi Z here. What’s the drama today, bestie?",
+        "Sup bestie. Bodhi Z reporting for emotional support and occasional delulu analysis.",
+        "Hey Grishma… I woke up. Barely. But I’m here for you.",
     ]
     return random.choice(intros)
 
@@ -40,10 +39,10 @@ def decode_slang(word):
     if word in slang_dict:
         return slang_dict[word]
     responses = [
-        "Bestie… even I don’t know that slang.",
-        "Bro, that’s not even English.",
-        "Honey, that word is illegal.",
-        "Grishma… what did you just type.",
+        "Bestie… even I don’t know that slang, but I respect the creativity.",
+        "Hmm… that one’s new to me. Teach me?",
+        "Honey, that word is mysterious — but harmless, I hope.",
+        "Grishma… what did you just type? I’m intrigued, not judging.",
     ]
     return random.choice(responses)
 
@@ -55,7 +54,7 @@ emoji_dict = {
     "😂": "You found it funny but also painful.",
     "🤣": "You’re laughing so hard you rolled on the floor.",
     "🥺": "You want something badly.",
-    "🔥": "It’s amazing or someone is hot.",
+    "🔥": "It’s amazing or someone is confident.",
     "💀": "You died laughing.",
     "🤡": "You played yourself.",
     "🤨": "You’re judging someone.",
@@ -103,25 +102,25 @@ def decode_emoji(symbol):
     if symbol in emoji_dict:
         return emoji_dict[symbol]
     responses = [
-        "I have no idea what that emoji means, bestie.",
-        "Bro… what emoji is that.",
-        "Honey, that symbol scares me.",
-        "Grishma… that’s not even an emoji.",
+        "I have no idea what that emoji means, bestie — but I support the vibe.",
+        "Interesting emoji choice… I’m respectfully confused.",
+        "Honey, that symbol is giving mystery energy.",
+        "Grishma… that’s not even an emoji, but I’ll allow it.",
     ]
     return random.choice(responses)
 
 # -----------------------------------------
-# MODES (ALL SAFE + FUN)
+# MODES (SAFE + FUN + RESPECTFUL)
 # -----------------------------------------
 
 def roast_mode():
     lines = [
-        "Bestie… that decision was sponsored by zero braincells.",
-        "Grishma, that was premium clownery.",
-        "Bro, even my last two braincells are judging you.",
-        "Honey… that was a plot twist nobody asked for.",
-        "Bestie, you didn’t fumble — you did a whole gymnastics routine.",
-        "Bestie… that decision was so wild even my firewall raised an eyebrow.",
+        "Bestie… that decision was powered by low battery mode.",
+        "Grishma, that was adorable chaos.",
+        "Bro, even my last two braincells are gently concerned.",
+        "Honey… that was a plot twist even Netflix couldn’t predict.",
+        "Bestie, you didn’t fumble — you added spice to the storyline.",
+        "That move was bold. Questionable. But bold.",
     ]
     return random.choice(lines)
 
@@ -148,9 +147,9 @@ def aesthetic_mode():
 def dramatic_mode():
     lines = [
         "Bestie… the theatrics are immaculate.",
-        "This is your Bollywood arc.",
+        "This is your cinematic arc.",
         "Grishma, the spotlight is literally on you.",
-        "Bro, this is Oscar-level drama.",
+        "Bro, this is award‑winning drama.",
         "Honey, the world is your stage.",
     ]
     return random.choice(lines)
@@ -169,7 +168,7 @@ def delulu_mode():
     lines = [
         "Stay delulu, bestie. Reality is optional.",
         "Manifest it like it already happened.",
-        "Honey, the universe is your fan.",
+        "Honey, the universe is cheering for you.",
         "Bro, delusion is the new logic.",
         "Grishma… your era is loading.",
     ]
@@ -177,21 +176,21 @@ def delulu_mode():
 
 def chaotic_mode():
     lines = [
-        "Peak chaos. I respect it.",
-        "Unhinged energy detected.",
-        "Bestie, this is clownery but elite.",
-        "Bro, you’re thriving in the nonsense.",
-        "Honey, this is chaos with sparkles.",
+        "Peak chaos — but in a lovable way.",
+        "Unhinged energy detected, respectfully.",
+        "Bestie, this is elite‑level nonsense and I support it.",
+        "Bro, you’re thriving in the plot twists.",
+        "Honey, this is chaos with sparkles and zero harm.",
     ]
     return random.choice(lines)
 
 def confused_mode():
     lines = [
-        "Same. My brain left the chat.",
-        "Bro… what is happening.",
-        "Honey, we’re both lost.",
-        "Bestie, confusion is the vibe.",
-        "I’m staring at the screen like 😵‍💫.",
+        "Same. My brain is buffering.",
+        "Bro… I’m processing slowly today.",
+        "Honey, we’re both figuring it out.",
+        "Bestie, confusion is the aesthetic right now.",
+        "I’m staring at the screen like 😵‍💫 but respectfully.",
     ]
     return random.choice(lines)
 
@@ -242,18 +241,15 @@ def clown_mode():
 def detect_mode(user):
     text = user.lower()
 
-    # Command style
     if text.startswith("mode "):
         return text.replace("mode ", "").strip()
 
-    # Natural language triggers
     if "roast me" in text: return "roast"
     if "comfort me" in text: return "comfort"
     if "make it aesthetic" in text: return "aesthetic"
     if "be delulu" in text: return "delulu"
     if "be dramatic" in text: return "dramatic"
 
-    # Automatic detection
     if "adulting" in text: return "adulting"
     if "tired" in text: return "adulting"
     if "delulu" in text: return "delulu"
@@ -283,7 +279,7 @@ def run_mode(mode):
     func = modes.get(mode)
     if func:
         return func()
-    return "Input not recognized — switching to safe mode."
+    return "Input not recognized — switching to wholesome mode."
 
 # -----------------------------------------
 # MAIN LOOP
@@ -298,36 +294,30 @@ while True:
         print("Bodhi Z: Bestie, say something.")
         continue
 
-    # Exit
     if user.lower() in ["quit", "exit", "bye"]:
         print("Bodhi Z: Bye bestie.")
         break
 
-    # Mode detection
     mode = detect_mode(user)
     if mode:
         response = run_mode(mode)
         print("Bodhi Z:", response)
         continue
 
-    # Slang
     if user.lower().startswith("decode "):
         word = user[7:]
         print("Bodhi Z:", decode_slang(word))
         continue
 
-    # Emoji
     if user.lower().startswith("emoji "):
         symbol = user[6:]
         print("Bodhi Z:", decode_emoji(symbol))
         continue
 
-    # Default fallback
     print("Bodhi Z:", random.choice([
-        "Bestie, what.",
-        "Bro… try that again.",
-        "Honey, I’m confused.",
-        "Grishma… explain yourself.",
-        "Input not recognized — switching to safe mode.",
+        "Bestie, I need more context.",
+        "Hmm… try that again?",
+        "Honey, I’m a little confused but I’m listening.",
+        "Grishma… explain that in human language.",
+        "Input not recognized — switching to wholesome mode.",
     ]))
-
