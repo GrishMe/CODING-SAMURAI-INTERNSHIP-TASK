@@ -1,94 +1,92 @@
-# 🤖 Bodhi Z — Gen‑Z Inspired AI Assistant  
-“Bodhi Z - Adulting to Delulu...I decode it all.”
+Bodhi Z – Adulting to Delulu… I Decode It All
+Bodhi Z is a personality‑driven Python chatbot designed to bring humor, comfort, chaos, and wholesome energy to your terminal.
+It decodes slang, interprets emojis, switches between expressive modes, and responds with a unique blend of fun + emotional intelligence.
+This project was created as part of my Coding Samurai AI Internship, showcasing Python logic, modular design, and creative conversational flow.
 
-Bodhi Z is a personality‑driven Python assistant built with a modular mode engine, safe input handling, and contextual response logic.  
-It blends humour, structure, and controlled behaviour — making it both fun and technically interesting.
-
----
-
-## 🔥 Features
-
-### 🎭 Multi‑Mode Personality Engine
-- Roast mode (safe + humorous)  
-- Comfort mode  
-- Aesthetic mode  
-- Delulu mode  
-- Dramatic mode  
-- Chaotic mode  
-- Confused mode  
-- Adulting / Tired mode  
-- Sweet, Cool & Clown modes  
-
-### 💬 Slang Decoder
-decode <word>
+🌟 Features
+🎭 Multiple Personality Modes
+Bodhi Z can switch between expressive, safe, and fun moods:
+- Roast
+- Comfort
+- Aesthetic
+- Dramatic
+- Delulu
+- Chaotic
+- Confused
+- Adulting
+- Sweet
+- Cool
+- Clown
+Each mode generates a unique, playful response.
 
 
+🔤 Slang Decoder
+Explain modern slang instantly:
+decode rizz
 
-### 😭 Emoji Decoder
-emoji <emoji>
+😭 Emoji Decoder
+Interpret emotional meaning behind emojis:
+
+emoji 😭
 
 
-### 🧠 Automatic Vibe Detection
-Typing things like:
-I am tired today
+🧠 Automatic Mode Detection
+Bodhi Z detects keywords like:
+- “roast me”
+- “comfort me”
+- “delulu”
+- “tired”
+- “chaotic”
+- “confused”
+…and responds in the correct mood automatically.
 
-automatically triggers **adulting mode**.
+💬 Interactive Terminal Chat
+Run the script and chat with Bodhi Z in real time — no setup beyond Python required.
 
-### 🛡️ Cybersecurity‑Friendly Design
-- Sanitised input handling  
-- Predictable behaviour  
-- No external API calls  
-- Controlled mode switching  
-- Safe fallback for unknown input  
-- No harmful or abusive outputs  
+🚀 How to Run
+1️⃣ Activate your virtual environmen
 
----
+venv\Scripts\activate
 
-## 🧩 How It Works
-
-Bodhi Z uses:
-- A lightweight state machine for mode switching  
-- Pattern detection for natural language triggers  
-- Dictionaries for slang & emoji decoding  
-- Randomised responses for personality variation  
-- Clean modular Python functions  
-
----
-
-## 🚀 Run the Project
-
-To run Bodhi Z locally:
+2️⃣ Run the chatbo
 python bodhiz_assistant.py
 
-
-Make sure you are inside the correct folder:
-cd BodhiZ_ai
-
-
----
-
-## 🎥 Demo  
-(Insert your GitHub video link here)
-
----
-
-## 📁 Project Structure
-CODING-SAMURAI-INTERNSHIP-TASK/ │── bodhiz_assistant.py │── README.md │── demo.mp4
+3️⃣ Start chatting
+You: roast me
+Bodhi Z: Bestie… that decision was powered by low battery mode.
 
 
----
 
-## 🧠 What I Learned
+📁 Project Structure
+app/
+│── bodhiz_assistant.py   # Main chatbot script
+│── venv/                 # Virtual environment
+│── README.md             # Project documentation
 
-- Designing a personality‑driven AI assistant  
-- Building a simple mode engine in Python  
-- Handling user input safely and predictably  
-- Structuring Python code in a modular way  
-- Thinking about cybersecurity while designing behaviour  
 
----
+ Purpose of This Project
+- Build a personality‑driven Python chatbot
+- Practice modular functions and clean code
+- Strengthen GitHub workflow (commit, push, version control)
+- Demonstrate creativity + technical skills for recruiters
+- Complete Coding Samurai internship deliverables
 
-## 👩‍💻 Author  
-**Grishma**  
-Cybersecurity & AI Enthusiast  
+🔮 Future Enhancements
+- Streamlit UI
+- Voice mode
+- Study Mode + Motivation Mode
+- Web‑based version
+- Branding + logo for Bodhi Z
+
+
+👩‍💻 Author
+Grishma
+MSc Cybersecurity | AI & Python Developer
+Coding Samurai AI Internship Participant
+
+
+
+
+
+
 
