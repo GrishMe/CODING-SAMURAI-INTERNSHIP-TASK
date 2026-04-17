@@ -26,6 +26,7 @@ Example: emoji 😭
 
 
 
+
 🚀 How to Run
 
 Open terminal
@@ -35,6 +36,7 @@ Go to project folder
 Activate virtual environment
 
 venv\Scripts\activate
+
 
 Run the chatbot
 
@@ -58,6 +60,7 @@ bodhiz_assistant.py
 README.md
 
 
+
 🎯 Purpose
 
 Practice Python programming
@@ -70,6 +73,7 @@ Create a project for GitHub portfolio
 
 
 
+
 🔮 Future Improvements
 
 Web version (Streamlit)
@@ -79,6 +83,7 @@ Voice interaction
 More personality modes
 
 Better UI design
+
 
 
 👩‍💻 Author
