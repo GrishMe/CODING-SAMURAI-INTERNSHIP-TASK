@@ -1,4 +1,6 @@
 🌟 Bodhi Z — Personality Chatbot in Python
+
+
 💡 Overview
 
 Bodhi Z is a Python-based chatbot that responds with different personalities based on user input.
@@ -8,6 +10,7 @@ This project demonstrates how simple logic can create engaging and fun AI-like c
 
 
 ✨ Features
+
 🎭 Multiple personality modes
 (Roast, Comfort, Aesthetic, Dramatic, Delulu, Chaotic, Confused, Adulting, Sweet, Cool, Clown)
 🧠 Automatic mood detection
